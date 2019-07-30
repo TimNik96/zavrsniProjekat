@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-left: 1%;
+}
+
+#logo {
+    width: 250px;
+    height: 130px;
+}
+
+nav {
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 2%;
+}
+
+nav div a {
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 0.5%;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#srednji {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+nav div {
+    text-align: center;
+}
+
+nav a:hover {
+    color: whitesmoke;
+}
+
+main div img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.prva {
+    width: 28%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.druga {
+    width: 28%;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5%;
+}
+
+.treca {
+    width: 28%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+blockquote{
+    font-size: 2em;
+    text-align: center;
+}
+
+main div {
+    margin-left: 8%;
+}
+
+footer {
+    text-align: center;
+    padding: 1%;
+}
+
+footer hr {
+    margin-bottom: 0.5%;
+}

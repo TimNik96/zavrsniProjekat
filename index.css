@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-left: 1%;
+}
+
+#logo {
+    width: 250px;
+    height: 130px;
+}
+
+nav {
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 2%;
+}
+
+nav div a {
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 0.5%;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#srednji {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+nav div {
+    text-align: center;
+}
+
+nav a:hover {
+    color: whitesmoke;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.dron {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+#dron1 {
+    width: 70%;
+    float: left;
+}
+
+#dron {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 4em;
+    float: left;
+    margin-right: 2%;
+    color: coral;
+}
+
+.dronn {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+
+#dronn1 {
+    width: 80%;
+    margin: auto;
+    float: right;
+}
+
+#dronn {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 4em;
+    float: right;
+    padding-top: 2%;
+    margin-left: 2%;
+    color: coral;
+    /* margin-top: -2%; */
+}
+
+#dron:hover{
+    color: yellow;
+}
+
+#dronn:hover{
+    color: yellow;
+}
+
+footer {
+    text-align: center;
+    padding: 1%;
+    border-top: 1px solid black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
